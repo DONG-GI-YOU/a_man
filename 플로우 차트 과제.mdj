@@ -1,0 +1,1529 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAF/vnniJh/CVug=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAF/vnniJh/DlJI=",
+					"_parent": {
+						"$ref": "AAAAAAF/vnniJh/CVug="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/vnonyh/JtG8=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vnonyh/HG1I="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vnonyh/KIYU=",
+									"_parent": {
+										"$ref": "AAAAAAF/vnonyh/JtG8="
+									},
+									"font": "Arial;16;0",
+									"left": 658,
+									"top": 130,
+									"width": 109,
+									"height": 16,
+									"text": "로비화면",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 648,
+							"top": 120,
+							"width": 129,
+							"height": 36,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vnonyh/KIYU="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/vnzhQCAsIYg=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vnzhQCAqcD4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vnzhQCAttS4=",
+									"_parent": {
+										"$ref": "AAAAAAF/vnzhQCAsIYg="
+									},
+									"font": "Arial;16;0",
+									"left": 658,
+									"top": 266,
+									"width": 108,
+									"height": 16,
+									"text": "난이도 선택",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 648,
+							"top": 256,
+							"width": 128,
+							"height": 36,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vnzhQCAttS4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/vn7OziBp4po=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vn7OziBnMUg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vn7OziBqTi4=",
+									"_parent": {
+										"$ref": "AAAAAAF/vn7OziBp4po="
+									},
+									"font": "Arial;16;0",
+									"left": 658,
+									"top": 434,
+									"width": 109,
+									"height": 16,
+									"text": "게임시작",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 648,
+							"top": 424,
+							"width": 129,
+							"height": 36,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vn7OziBqTi4="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAF/voAVfiB/W+g=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/voAVfSB9ZTk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/voAVfiCALJM=",
+									"_parent": {
+										"$ref": "AAAAAAF/voAVfiB/W+g="
+									},
+									"font": "Arial;16;0",
+									"left": 556.25,
+									"top": 350.25,
+									"width": 56.5,
+									"height": 28.5,
+									"text": "easy",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 528,
+							"top": 336,
+							"width": 113,
+							"height": 57,
+							"nameLabel": {
+								"$ref": "AAAAAAF/voAVfiCALJM="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAF/voDytSCIRE0=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/voDytSCGYJ4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/voDytSCJDXQ=",
+									"_parent": {
+										"$ref": "AAAAAAF/voDytSCIRE0="
+									},
+									"font": "Arial;16;0",
+									"left": 684.542236328125,
+									"top": 350.25,
+									"width": 57.08447265625,
+									"height": 28.5,
+									"text": "hard",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 656,
+							"top": 336,
+							"width": 114.1689453125,
+							"height": 57,
+							"nameLabel": {
+								"$ref": "AAAAAAF/voDytSCJDXQ="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAF/voEWNSCRbl4=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/voEWNSCP+1o="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/voEWNSCShdU=",
+									"_parent": {
+										"$ref": "AAAAAAF/voEWNSCRbl4="
+									},
+									"font": "Arial;16;0",
+									"left": 812.542236328125,
+									"top": 350,
+									"width": 57.08447265625,
+									"height": 28,
+									"text": "crazy",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 784,
+							"top": 336,
+							"width": 114.1689453125,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAF/voEWNSCShdU="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/voK3BSC7e94=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/voK3BCC5dxU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/voK3BSC8zUc=",
+									"_parent": {
+										"$ref": "AAAAAAF/voK3BSC7e94="
+									},
+									"font": "Arial;16;0",
+									"left": 602,
+									"top": 506,
+									"width": 53,
+									"height": 16,
+									"text": "승리",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 592,
+							"top": 496,
+							"width": 73,
+							"height": 36,
+							"nameLabel": {
+								"$ref": "AAAAAAF/voK3BSC8zUc="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/voLt1CDGC4Y=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/voLt1CDEmCY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/voLt1CDHEuY=",
+									"_parent": {
+										"$ref": "AAAAAAF/voLt1CDGC4Y="
+									},
+									"font": "Arial;16;0",
+									"left": 770,
+									"top": 506,
+									"width": 60,
+									"height": 16,
+									"text": "패배",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 760,
+							"top": 496,
+							"width": 80,
+							"height": 36,
+							"nameLabel": {
+								"$ref": "AAAAAAF/voLt1CDHEuY="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/voiTMyEHIxY=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/voiTMyEFKMM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/voiTMyEIvp0=",
+									"_parent": {
+										"$ref": "AAAAAAF/voiTMyEHIxY="
+									},
+									"model": {
+										"$ref": "AAAAAAF/voiTMyEFKMM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 646,
+									"top": 313,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/voiTMyEHIxY="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;16;0",
+							"head": {
+								"$ref": "AAAAAAF/voAVfiB/W+g="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vnzhQCAsIYg="
+							},
+							"points": "711:291;711:304;584:304;584:336",
+							"nameLabel": {
+								"$ref": "AAAAAAF/voiTMyEIvp0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vomA8iEqn84=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vomA8iEoAgk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vomA8iErk3I=",
+									"_parent": {
+										"$ref": "AAAAAAF/vomA8iEqn84="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vomA8iEoAgk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 775,
+									"top": 283,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vomA8iEqn84="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;16;0",
+							"head": {
+								"$ref": "AAAAAAF/voEWNSCRbl4="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vnzhQCAsIYg="
+							},
+							"points": "711:291;711:304;840:304;840:336",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vomA8iErk3I="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vorSsSFU1bo=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vorSsSFS2Zs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vorSsSFV3Ps=",
+									"_parent": {
+										"$ref": "AAAAAAF/vorSsSFU1bo="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vorSsSFS2Zs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 584,
+									"top": 419,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vorSsSFU1bo="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;16;0",
+							"head": {
+								"$ref": "AAAAAAF/vn7OziBp4po="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/voAVfiB/W+g="
+							},
+							"lineStyle": 2,
+							"points": "584:392;584:440;648:440",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vorSsSFV3Ps="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vosIySFghSM=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vosIySFehi0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vosIySFhFrs=",
+									"_parent": {
+										"$ref": "AAAAAAF/vosIySFghSM="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vosIySFehi0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 726,
+									"top": 401,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vosIySFghSM="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;16;0",
+							"head": {
+								"$ref": "AAAAAAF/vn7OziBp4po="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/voDytSCIRE0="
+							},
+							"lineStyle": 2,
+							"points": "712:392;712:424",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vosIySFhFrs="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/voshkSFqPcc=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/voshkSFoDxg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/voshkSFregM=",
+									"_parent": {
+										"$ref": "AAAAAAF/voshkSFqPcc="
+									},
+									"model": {
+										"$ref": "AAAAAAF/voshkSFoDxg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 839,
+									"top": 449,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/voshkSFqPcc="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;16;0",
+							"head": {
+								"$ref": "AAAAAAF/vn7OziBp4po="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/voEWNSCRbl4="
+							},
+							"lineStyle": 2,
+							"points": "840:391;840:440;776:440",
+							"nameLabel": {
+								"$ref": "AAAAAAF/voshkSFregM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/votucSF2lQo=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/votucSF0CPs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/votucSF3k50=",
+									"_parent": {
+										"$ref": "AAAAAAF/votucSF2lQo="
+									},
+									"model": {
+										"$ref": "AAAAAAF/votucSF0CPs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 692,
+									"top": 521,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/votucSF2lQo="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;16;0",
+							"head": {
+								"$ref": "AAAAAAF/voK3BSC7e94="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vn7OziBp4po="
+							},
+							"lineStyle": 2,
+							"points": "693:459;693:512;664:512",
+							"nameLabel": {
+								"$ref": "AAAAAAF/votucSF3k50="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vouxGSGNxpM=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vouxGSGL50s="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vouxGSGO+Cw=",
+									"_parent": {
+										"$ref": "AAAAAAF/vouxGSGNxpM="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vouxGSGL50s="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 731,
+									"top": 491,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vouxGSGNxpM="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;16;0",
+							"head": {
+								"$ref": "AAAAAAF/voLt1CDGC4Y="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vn7OziBp4po="
+							},
+							"lineStyle": 2,
+							"points": "731:459;731:512;760:512",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vouxGSGO+Cw="
+							}
+						},
+						{
+							"_type": "FCAlternateProcessView",
+							"_id": "AAAAAAF/vowHQSGXoY0=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vowHQSGVlIo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vowHQSGYYEk=",
+									"_parent": {
+										"$ref": "AAAAAAF/vowHQSGXoY0="
+									},
+									"font": "Arial;16;0",
+									"left": 514,
+									"top": 586,
+									"width": 140,
+									"height": 32,
+									"text": "캐릭터가 춤추는 엔딩",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 504,
+							"top": 576,
+							"width": 160,
+							"height": 52,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vowHQSGYYEk="
+							}
+						},
+						{
+							"_type": "FCAlternateProcessView",
+							"_id": "AAAAAAF/voyTqSGjZYc=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/voyTqSGhoG4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/voyTqiGkM2M=",
+									"_parent": {
+										"$ref": "AAAAAAF/voyTqSGjZYc="
+									},
+									"font": "Arial;16;0",
+									"left": 770,
+									"top": 586,
+									"width": 149,
+									"height": 32,
+									"text": "F학점이 쏟아지는 엔딩",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 760,
+							"top": 576,
+							"width": 169,
+							"height": 52,
+							"nameLabel": {
+								"$ref": "AAAAAAF/voyTqiGkM2M="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vo16GSGu60o=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vo16GSGs3xY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vo16GSGv+9Y=",
+									"_parent": {
+										"$ref": "AAAAAAF/vo16GSGu60o="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vo16GSGs3xY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 633,
+									"top": 546,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vo16GSGu60o="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;16;0",
+							"head": {
+								"$ref": "AAAAAAF/vowHQSGXoY0="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/voK3BSC7e94="
+							},
+							"lineStyle": 2,
+							"points": "619:531;619:576",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vo16GSGv+9Y="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vo2tWSHFqG8=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vo2tWSHDW9o="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vo2tWSHG8tY=",
+									"_parent": {
+										"$ref": "AAAAAAF/vo2tWSHFqG8="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vo2tWSHDW9o="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 822,
+									"top": 546,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vo2tWSHFqG8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;16;0",
+							"head": {
+								"$ref": "AAAAAAF/voyTqSGjZYc="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/voLt1CDGC4Y="
+							},
+							"lineStyle": 2,
+							"points": "808:531;808:576",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vo2tWSHG8tY="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF/vo4BoCHOHQ4=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vo4BoCHMlGg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/vo4BoCHP9no=",
+									"_parent": {
+										"$ref": "AAAAAAF/vo4BoCHOHQ4="
+									},
+									"font": "Arial;16;0",
+									"left": 642,
+									"top": 698,
+									"width": 140,
+									"height": 16,
+									"text": "로비화면",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 632,
+							"top": 688,
+							"width": 160,
+							"height": 36,
+							"nameLabel": {
+								"$ref": "AAAAAAF/vo4BoCHP9no="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vo5JsCHayQQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vo5JsCHYVME="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vo5JsCHbD9c=",
+									"_parent": {
+										"$ref": "AAAAAAF/vo5JsCHayQQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vo5JsCHYVME="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 601,
+									"top": 683,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vo5JsCHayQQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;16;0",
+							"head": {
+								"$ref": "AAAAAAF/vo4BoCHOHQ4="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vowHQSGXoY0="
+							},
+							"lineStyle": 2,
+							"points": "601:627;601:704;632:704",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vo5JsCHbD9c="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vo6B+CHxESU=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vo6B+CHv8fg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vo6B+CHyLmU=",
+									"_parent": {
+										"$ref": "AAAAAAF/vo6B+CHxESU="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vo6B+CHv8fg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 824,
+									"top": 713,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vo6B+CHxESU="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;16;0",
+							"head": {
+								"$ref": "AAAAAAF/vo4BoCHOHQ4="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/voyTqSGjZYc="
+							},
+							"lineStyle": 2,
+							"points": "825:627;825:704;791:704",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vo6B+CHyLmU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vpLKhyJsikQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpLKhyJqhss="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vpLKhyJtn04=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpLKhyJsikQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vpLKhyJqhss="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 726,
+									"top": 198,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vpLKhyJsikQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;16;0",
+							"head": {
+								"$ref": "AAAAAAF/vnzhQCAsIYg="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vnonyh/JtG8="
+							},
+							"lineStyle": 2,
+							"points": "712:155;712:256",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpLKhyJtn04="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF/vpQMXiKDhNE=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"model": {
+								"$ref": "AAAAAAF/vpQMXSKBYxE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/vpQMXiKECWU=",
+									"_parent": {
+										"$ref": "AAAAAAF/vpQMXiKDhNE="
+									},
+									"model": {
+										"$ref": "AAAAAAF/vpQMXSKBYxE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 725,
+									"top": 306,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/vpQMXiKDhNE="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;16;0",
+							"head": {
+								"$ref": "AAAAAAF/voDytSCIRE0="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vnzhQCAsIYg="
+							},
+							"lineStyle": 2,
+							"points": "711:291;711:336",
+							"nameLabel": {
+								"$ref": "AAAAAAF/vpQMXiKECWU="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF/vp8EkiKLIvs=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"font": "Arial;16;0",
+							"left": 808,
+							"top": 144,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/vqBc+CKqLh0=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"lineColor": "#2b2bff",
+							"fillColor": "#ffffd8",
+							"font": "Arial;13;0",
+							"left": 968,
+							"top": 120,
+							"width": 217,
+							"height": 41,
+							"text": "게임을 실행하면 로비화면이 나옴",
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/vqEA2CKzQIk=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"lineColor": "#2b2bff",
+							"fillColor": "#ffffd8",
+							"font": "Arial;13;0",
+							"left": 968,
+							"top": 248,
+							"width": 265,
+							"height": 57,
+							"text": "난이도 선택을 클릭하면 easy, hard, crazy 중 1선택이 가능함",
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/vqOMRyLHQlk=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"lineColor": "#2b2bff",
+							"fillColor": "#ffffd8",
+							"font": "Arial;13;0",
+							"left": 968,
+							"top": 344,
+							"width": 225,
+							"height": 49,
+							"text": "easy, hard, crazy 중 1 선택을 하면 바로 게임이 시작됨",
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/vqXTxiLh5EY=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"lineColor": "#2b2bff",
+							"fillColor": "#ffffd8",
+							"font": "Arial;13;0",
+							"left": 968,
+							"top": 488,
+							"width": 193,
+							"height": 57,
+							"text": "게임 중 F학점을 든 교수님과 접촉시 패배를 하게됨",
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/vqeRniLvBf0=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"lineColor": "#2b2bff",
+							"fillColor": "#ffffd8",
+							"font": "Arial;13;0",
+							"left": 272,
+							"top": 480,
+							"width": 185,
+							"height": 57,
+							"text": "게임 중 학점을 다 획득 시 승리하게 됨",
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/vqifDSL85eE=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"lineColor": "#2b2bff",
+							"fillColor": "#ffffd8",
+							"font": "Arial;13;0",
+							"left": 272,
+							"top": 568,
+							"width": 184,
+							"height": 64,
+							"text": "승리를 하면 플레이어의 캐릭터가 춤을 추는 엔딩화면으로 전환됨",
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/vqm3vSME3uA=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"lineColor": "#2b2bff",
+							"fillColor": "#ffffd8",
+							"font": "Arial;13;0",
+							"left": 968,
+							"top": 576,
+							"width": 184,
+							"height": 64,
+							"text": "패배를 하면 F학점이 비처럼 하늘에서 쏟아지는 엔딩화면으로 전환됨",
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAF/vqtLrSMSbAs=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"lineColor": "#2b2bff",
+							"fillColor": "#ffffd8",
+							"font": "Arial;13;0",
+							"left": 968,
+							"top": 712,
+							"width": 160,
+							"height": 51,
+							"text": "엔딩화면이 7초간 진행되고 종료되면 로비화면으로 전환됨 ",
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/vqz+RCMcWQw=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vqBc+CKqLh0="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vnonyh/JtG8="
+							},
+							"lineStyle": 1,
+							"points": "777:138;967:139"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/vq0lsyMfJPQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vqEA2CKzQIk="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vnzhQCAsIYg="
+							},
+							"lineStyle": 1,
+							"points": "776:274;967:275"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/vq2AnSMj7Bk=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vqOMRyLHQlk="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vpQMXiKDhNE="
+							},
+							"lineStyle": 1,
+							"points": "711:313;967:351"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/vq4BpCMr4rk=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/voK3BSC7e94="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vqeRniLvBf0="
+							},
+							"lineStyle": 1,
+							"points": "457:510;591:512"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/vq4kuyMvSAQ=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vqXTxiLh5EY="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/voLt1CDGC4Y="
+							},
+							"lineStyle": 1,
+							"points": "840:513;967:515"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/vq41qyMy/oM=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vowHQSGXoY0="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vqifDSL85eE="
+							},
+							"lineStyle": 1,
+							"points": "456:600;503:600"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/vq5PmyM1/qg=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vqm3vSME3uA="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/voyTqSGjZYc="
+							},
+							"lineStyle": 1,
+							"points": "929:603;967:604"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAF/vq6BBCM5nr8=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnniJh/DlJI="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/vqtLrSMSbAs="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/vo4BoCHOHQ4="
+							},
+							"lineStyle": 1,
+							"points": "792:713;967:729"
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/vnonyh/HG1I=",
+					"_parent": {
+						"$ref": "AAAAAAF/vnniJh/CVug="
+					},
+					"name": "로비화면",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vpLKhyJqhss=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnonyh/HG1I="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vnonyh/HG1I="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vnzhQCAqcD4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/vnzhQCAqcD4=",
+					"_parent": {
+						"$ref": "AAAAAAF/vnniJh/CVug="
+					},
+					"name": "난이도 선택",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/voiTMyEFKMM=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnzhQCAqcD4="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vnzhQCAqcD4="
+							},
+							"target": {
+								"$ref": "AAAAAAF/voAVfSB9ZTk="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vomA8iEoAgk=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnzhQCAqcD4="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vnzhQCAqcD4="
+							},
+							"target": {
+								"$ref": "AAAAAAF/voEWNSCP+1o="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vpQMXSKBYxE=",
+							"_parent": {
+								"$ref": "AAAAAAF/vnzhQCAqcD4="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vnzhQCAqcD4="
+							},
+							"target": {
+								"$ref": "AAAAAAF/voDytSCGYJ4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/vn7OziBnMUg=",
+					"_parent": {
+						"$ref": "AAAAAAF/vnniJh/CVug="
+					},
+					"name": "게임시작",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/votucSF0CPs=",
+							"_parent": {
+								"$ref": "AAAAAAF/vn7OziBnMUg="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vn7OziBnMUg="
+							},
+							"target": {
+								"$ref": "AAAAAAF/voK3BCC5dxU="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vouxGSGL50s=",
+							"_parent": {
+								"$ref": "AAAAAAF/vn7OziBnMUg="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vn7OziBnMUg="
+							},
+							"target": {
+								"$ref": "AAAAAAF/voLt1CDEmCY="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAF/voAVfSB9ZTk=",
+					"_parent": {
+						"$ref": "AAAAAAF/vnniJh/CVug="
+					},
+					"name": "easy",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vorSsSFS2Zs=",
+							"_parent": {
+								"$ref": "AAAAAAF/voAVfSB9ZTk="
+							},
+							"source": {
+								"$ref": "AAAAAAF/voAVfSB9ZTk="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vn7OziBnMUg="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAF/voDytSCGYJ4=",
+					"_parent": {
+						"$ref": "AAAAAAF/vnniJh/CVug="
+					},
+					"name": "hard",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vosIySFehi0=",
+							"_parent": {
+								"$ref": "AAAAAAF/voDytSCGYJ4="
+							},
+							"source": {
+								"$ref": "AAAAAAF/voDytSCGYJ4="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vn7OziBnMUg="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAF/voEWNSCP+1o=",
+					"_parent": {
+						"$ref": "AAAAAAF/vnniJh/CVug="
+					},
+					"name": "crazy",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/voshkSFoDxg=",
+							"_parent": {
+								"$ref": "AAAAAAF/voEWNSCP+1o="
+							},
+							"source": {
+								"$ref": "AAAAAAF/voEWNSCP+1o="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vn7OziBnMUg="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/voK3BCC5dxU=",
+					"_parent": {
+						"$ref": "AAAAAAF/vnniJh/CVug="
+					},
+					"name": "승리",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vo16GSGs3xY=",
+							"_parent": {
+								"$ref": "AAAAAAF/voK3BCC5dxU="
+							},
+							"source": {
+								"$ref": "AAAAAAF/voK3BCC5dxU="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vowHQSGVlIo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/voLt1CDEmCY=",
+					"_parent": {
+						"$ref": "AAAAAAF/vnniJh/CVug="
+					},
+					"name": "패배",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vo2tWSHDW9o=",
+							"_parent": {
+								"$ref": "AAAAAAF/voLt1CDEmCY="
+							},
+							"source": {
+								"$ref": "AAAAAAF/voLt1CDEmCY="
+							},
+							"target": {
+								"$ref": "AAAAAAF/voyTqSGhoG4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCAlternateProcess",
+					"_id": "AAAAAAF/vowHQSGVlIo=",
+					"_parent": {
+						"$ref": "AAAAAAF/vnniJh/CVug="
+					},
+					"name": "캐릭터가 춤추는 엔딩",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vo5JsCHYVME=",
+							"_parent": {
+								"$ref": "AAAAAAF/vowHQSGVlIo="
+							},
+							"source": {
+								"$ref": "AAAAAAF/vowHQSGVlIo="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vo4BoCHMlGg="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCAlternateProcess",
+					"_id": "AAAAAAF/voyTqSGhoG4=",
+					"_parent": {
+						"$ref": "AAAAAAF/vnniJh/CVug="
+					},
+					"name": "F학점이 쏟아지는 엔딩",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF/vo6B+CHv8fg=",
+							"_parent": {
+								"$ref": "AAAAAAF/voyTqSGhoG4="
+							},
+							"source": {
+								"$ref": "AAAAAAF/voyTqSGhoG4="
+							},
+							"target": {
+								"$ref": "AAAAAAF/vo4BoCHMlGg="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF/vo4BoCHMlGg=",
+					"_parent": {
+						"$ref": "AAAAAAF/vnniJh/CVug="
+					},
+					"name": "로비화면"
+				}
+			]
+		}
+	]
+}
